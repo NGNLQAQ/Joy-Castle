@@ -1,0 +1,4 @@
+repository "joycastle@ngnl12138@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
