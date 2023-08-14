@@ -4,21 +4,8 @@ using UnityEngine;
 
 public class SimpleTween : MonoBehaviour
 {
-    private static SimpleTween instance;
     private List<Tween> active = new List<Tween>();
 
-    public static SimpleTween Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                GameObject go = new GameObject("SimpleTween");
-                instance = go.AddComponent<SimpleTween>();
-            }
-            return instance;
-        }
-    }
 
     private void Update()
     {

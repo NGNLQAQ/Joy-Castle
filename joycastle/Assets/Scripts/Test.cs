@@ -5,6 +5,7 @@ using UnityEngine;
 public class Test : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject manager;
     private SimpleTween simple;
     private Transform origin;
     private Vector3 oriScale;
@@ -14,7 +15,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         origin = this.transform;
-        simple = SimpleTween.Instance;
+        simple = manager.GetComponent<SimpleTween>();
         oriScale = Vector3.one;
     }
 
