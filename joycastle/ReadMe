@@ -1,0 +1,12 @@
+在Unity中打开，开始游戏后，
+按下对应按键cube将同时进行放大和移动
+对应按键：
+1 - linear
+2 - EaseInSine
+3 - EaseOutSine
+4 - EaseInOutSine
+5 - EaseInBack
+6 - EaseOutBack
+7 - EaseInOutBack
+S - kill scale的Tween
+M - kill move的Tween
